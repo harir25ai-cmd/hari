@@ -4,7 +4,7 @@ int add(int a,int b)
 }
 void main()
 {
-    int a=10,b=9;
+    int a=10,b=10;
 
     System.out.print(add(a,b));
 }
