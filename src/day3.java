@@ -1,19 +1,25 @@
 void main()
 {
-    int n = 5;
-    for(int row = 1;row <= n;row++)
+    int [] marks = {87,32,44,89,23};
+
+    System.out.print("pass Marks ");
+
+    for (int mark:marks)
     {
-        for(int col = n;col > row-1;col--)
-        {
-            System.out.print(col);
+        if(40 < mark) {
+            System.out.print(mark+",");
         }
-        System.out.println();
+
     }
-    /*
-    54321
-    5432
-    543
-    54
-    5
-     */
+    System.out.println();
+    System.out.print("Fail Marks ");
+
+    for (int mark:marks)
+    {
+        if(40 > mark) {
+            System.out.print(mark+",");
+        }
+
+    }
+
 }
